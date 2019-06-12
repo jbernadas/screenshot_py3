@@ -6,12 +6,15 @@ This is the Python 3 version of an old screenshot generator I made 2 years ago. 
 
 The first part of this screenshot generator uses the sitemap_gen created by Bernhard Ehlers, which is the Python 3 port of code made by Vladimir Toncar and Pavel Dvorak.
 
-It has the following libraries as dependencies: Util, PIL, Selenium, ChromeDriver.
+It has the following libraries as dependencies: PIL, Selenium, Reppy and ChromeDriver.
 
-To download PIL and Selenium, you can use pip. 
+To download PIL, Selenium and Reppy, use pip3. 
 ::
   pip3 install Pillow
   pip3 install selenium
+  pip3 install reppy
+
+Note: Regarding Reppy, if you are on Windows, you need to have 'Visual Studio' and 'Visual Studio extension development' installed.
 
 ChromeDriver is downloaded from: https://sites.google.com/a/chromium.org/chromedriver/downloads. Choose the appropriate Chrome version, save it to your computer, cd into the directory where you downloaded Chromedriver. Unzip the file:
 ::
