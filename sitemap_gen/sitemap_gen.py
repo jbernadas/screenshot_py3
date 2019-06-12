@@ -252,7 +252,7 @@ def main():
     changefreq = ""
     priority = 0.0
     fileName = "sitemap.txt"
-    maxUrls = 1000
+    maxUrls = 100
     pageMap = {}
 
     for opt, arg in opts:
