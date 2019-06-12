@@ -6,12 +6,10 @@ Various utility functions used throughout this mini-framework.
 
 import datetime
 import os
-import platform
 import time
 from time import strftime
 
 from PIL import Image
-import requests
 
 def fullpage_screenshot(driver, file):
     """
