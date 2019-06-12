@@ -21,16 +21,24 @@ ChromeDriver is downloaded from: https://sites.google.com/a/chromium.org/chromed
 
   unzip chromedriver_linux64.zip
 
+Mac and Linux
+=============
 Make chromedriver executable then move it to a directory that is part of your path:
 ::
   
   chmod +x chromedriver
   sudo mv chromedriver /usr/local/bin/chromedriver
 
+Windows
+=======
+Place chromedriver into your PATH environment variable.
+
+Fire it up
+==========
 Now cd into screenshot directory. Fire up the multi.py file:
 ::
 
-  python multi.py
+  python screenshot.py
 
 It will ask you for the target URL. Be careful to check if the target URL has a lot of pages, the script will screenshot most of it (except those that end with PNG, JPG and PDF). The maximum is set at 100 pages, you can change this. You might want to change this in sitemap_gen.py.
 
