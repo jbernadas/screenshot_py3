@@ -35,7 +35,7 @@ Place chromedriver into your PATH environment variable.
 
 Fire it up
 ==========
-Now cd into screenshot directory. Fire up the multi.py file:
+Now cd into screenshot directory. Fire it up by invoking:
 ::
 
   python3 screenshot.py
