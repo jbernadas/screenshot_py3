@@ -40,6 +40,6 @@ Now cd into screenshot directory. Fire it up by invoking:
 
   python3 screenshot.py
 
-It will ask you for the target URL. Be careful to check if the target URL has a lot of pages, the script will screenshot most of it (except those that end with PNG, JPG and PDF). The maximum is set at 100 pages, you can change this. You might want to change this in sitemap_gen.py.
+It will ask you for the target URL. Be careful to check if the target URL has a lot of pages, the script will screenshot most of it (except those that end with PNG, JPG and PDF). The maximum is set at 100 pages, you can change this value in sitemap_gen.py.
 
 Thanks for looking.
