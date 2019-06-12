@@ -12,7 +12,6 @@ To download PIL and Selenium, you can use pip.
 ::
   pip3 install Pillow
   pip3 install selenium
-  pip3 install requests
 
 ChromeDriver is downloaded from: https://sites.google.com/a/chromium.org/chromedriver/downloads. Choose the appropriate Chrome version, save it to your computer, cd into the directory where you downloaded Chromedriver. Unzip the file:
 ::
