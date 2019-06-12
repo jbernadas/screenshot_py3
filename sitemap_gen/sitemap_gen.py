@@ -27,8 +27,7 @@ import urllib.request
 from datetime import datetime
 from html.parser import HTMLParser
 import xml.sax.saxutils
-from reppy.robots import Robots
-
+from reppy import Robots
 
 helpText = """sitemap_gen.py version 1.2.3 (2019-02-12)
 
