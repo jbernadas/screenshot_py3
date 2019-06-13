@@ -16,10 +16,10 @@ To download PIL, Selenium and Reppy, use pip3.
 
 On Windows, you may encounter some errors installing Reppy, you may need to install Visual Studio with Microsoft Visual Studio C++ first.
 
-ChromeDriver is downloaded from: https://sites.google.com/a/chromium.org/chromedriver/downloads. Choose the appropriate Chrome version, save it to your computer, cd into the directory where you downloaded Chromedriver. Unzip the file:
+The last dependecy you'll need is ChromeDriver which is downloaded from: https://sites.google.com/a/chromium.org/chromedriver/downloads. Choose the appropriate Chrome version, save it to your computer, cd into the directory where you downloaded Chromedriver. Unzip the file:
 ::
 
-  unzip chromedriver_linux64.zip
+  unzip chromedriver_<your_os_platform>.zip
 
 Mac and Linux
 =============
