@@ -6,9 +6,9 @@ This is a Python 3 screenshot generator that takes full-page screenshots of all 
 
 The first part of this screenshot generator uses the sitemap_gen created by Bernhard Ehlers, which is the Python 3 port of code made by Vladimir Toncar and Pavel Dvorak.
 
-It has the following libraries as dependencies: PIL, Selenium, Reppy and ChromeDriver.
+It has the following libraries as dependencies: Pillow, Selenium, Reppy and ChromeDriver.
 
-To download PIL, Selenium and Reppy, use pip3. 
+To download Pillow, Selenium and Reppy, use pip3. ChromeDriver has to be installed manually. 
 ::
   pip3 install Pillow
   pip3 install selenium
