@@ -2,7 +2,7 @@
 Screenshot Generator
 ********************
 
-This is a Python 3 screenshot generator that takes full-page screenshots of all valid pages in a website. It does this by first crawling a website for related URL links then automatically generates a sitemap.txt file. It then reads the list of URLs in sitemap.txt and takes full-page PNG screenshots of each of the listed URLs there. It creates a full-page screenshot by stitching together different section screenshots into one full-page.
+This is a Python 3 screenshot generator that takes full-page screenshots of all valid pages in a website. It does this by first crawling a website for related URL links then automatically generates a sitemap.txt file. It then reads the list of URLs in sitemap.txt and takes full-page PNG screenshots of each of the listed URLs. It creates a full-page screenshot by stitching together different section screenshots into one full-page.
 
 It has the following libraries as dependencies: Pillow, Selenium, Reppy and ChromeDriver.
 
