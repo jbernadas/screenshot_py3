@@ -25,6 +25,8 @@ Make chromedriver executable then move it to a directory that is part of your pa
   chmod +x chromedriver
   sudo mv chromedriver /usr/local/bin/chromedriver
 
+Note: On Mac, you may need to give permission to allow Chromedriver to be opened by clicking the question mark on the pop-up window and following the prompts.
+
 Windows
 =======
 Place chromedriver into your PATH environment variable.
